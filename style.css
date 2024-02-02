@@ -1,0 +1,14 @@
+.addFieldBtn {
+    cursor: move;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#build-wrap {
+    min-height: 300px;
+    border: 2px dashed #999;
+    padding: 20px;
+}

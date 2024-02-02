@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J Query Dynamic Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="build-wrap"></div>
+
+    <button class="addFieldBtn" data-type="email" draggable="true">
+        <i class="fas fa-envelope"></i> Add Email Input
+    </button>
+    <button class="addFieldBtn" data-type="password" draggable="true">
+        <i class="fas fa-lock"></i> Add Password Input
+    </button>
+    <button class="addFieldBtn" data-type="radio" draggable="true">
+        <i class="fas fa-list-ul"></i> Add Radio Button
+    </button>
+
+    <button id="submitBtn">Submit Form</button>
+
+    <div id="submittedData"></div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery-formBuilder/3.18.0/form-builder.min.js"></script>
+
+    <script type="text/javascript" src="script.js">
+    </script>
+</body>
+</html>
